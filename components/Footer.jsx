@@ -43,7 +43,7 @@ export default function Footer() {
             Email: info@ccog.com
           </p>
           <p className="text-gray-400 text-sm mt-2">
-            Phone: +91 9876543210
+            Phone: +1 825 600 7788
           </p>
         </div>
 
