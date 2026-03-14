@@ -12,7 +12,7 @@ export default function CTA() {
       </p>
 
       <Link
-        href="/contact"
+        href="/enroll"
         className="inline-block mt-8 bg-black px-8 py-3 rounded-lg font-semibold hover:bg-gray-800"
       >
         Start Now

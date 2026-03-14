@@ -1,4 +1,5 @@
 import React from "react";
+import Link from "next/link";
 
 const CourseCTA = () => {
   return (
@@ -11,13 +12,14 @@ const CourseCTA = () => {
 
         <p className="text-gray-300 mb-10">
           Join thousands of learners who are building successful careers
-          in technology. Our expert instructors and structured curriculum
-          will help you gain practical skills and industry knowledge.
+          in technology.
         </p>
 
-        <button className="bg-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition">
-          Enroll Now
-        </button>
+        <Link href="/enroll">
+          <button className="bg-blue-600 px-8 py-4 rounded-lg font-semibold hover:bg-blue-700 transition">
+            Enroll Now
+          </button>
+        </Link>
 
       </div>
     </section>
